@@ -11,14 +11,14 @@ El proyecto incluye 3 pares de archivos Java cliente-servidor
 Una empresa de telefonía les contrató para crear un bot de atención al cliente.
 El servidor del bot debe implementarse como socket java  con el siguiente comportamiento:
 
-PASO1. Mensaje de bienvenida del bot "Bienvenido a SocketCEL, favor ingrese número de cédula:"
-PASO2. Leer número de cédula
-PASO3. Simular la validación de número de cédula (número guardado en el código) 
-PASO3.1 Si el número coincide, responder con "Bienvenido XXXX, en qué podemos ayudarte (ingrese número de opción): 
-1 - Consultar factura
-2-  Realizar reclamo
-3-  Salir
-PASO 3.2 En caso de que el número no coincida volver a solicitar numero de cédula "Disculpe, ingrese de nuevo número de cedula"
+PASO1. Mensaje de bienvenida del bot "Bienvenido a SocketCEL, favor ingrese número de cédula:"<br>
+PASO2. Leer número de cédula<br>
+PASO3. Simular la validación de número de cédula (número guardado en el código) <br>
+PASO3.1 Si el número coincide, responder con "Bienvenido XXXX, en qué podemos ayudarte (ingrese número de opción): <br>
+1 - Consultar factura<br>
+2-  Realizar reclamo<br>
+3-  Salir<br>
+PASO 3.2 En caso de que el número no coincida volver a solicitar numero de cédula "Disculpe, ingrese de nuevo número de cedula"<br>
 
 Paso 4. Procesar opción ingresada en el PASO 3.1 según sea el caso:
 - Consultar factura: solicitar número de línea y retornar mensaje "La cuenta pendiente de <la línea> es 150.0000 gs".
